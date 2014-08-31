@@ -9,7 +9,7 @@ body {
 
 // headlines
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   margin: 0;
@@ -56,6 +56,19 @@ h6 {
 }
 
 // general link styles
+a{
+  color: #006db2;
+  text-decoration: none;
+  outline: none;
+}
+
+.notsigned{
+color:red;
+}
+
+.signed{
+color:green;
+}
 
 a:link {
   color: #006db2;
@@ -96,40 +109,45 @@ a:active {
 }
 
 .width-container {
-  width: 92%;
-  margin: 0 4% 0 4%;
-  padding: 1px 4% 0 4%;
+  width: 80%;
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right:6%;
+  padding-bottom: 2%;
+  margin: 1% 4% 2% 4%;
   background: #F5F5F5;
 }
 
 .width-candidates {
-  width: 92%;
-  margin: 0 4% 0 4%;
-  padding: 1px 4% 0 4%;
-  background: #FFFFF;
+  width: 82%;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  display: table;
 }
 
-// share box which appears after a user submits an action
-
-flash-share {
-  margin: 0 0 -.625em 0;
+.canidate-img{
+	display: table-cell;
+	padding: 0 13px;
 }
 
-
+.canidates-img-1{
+width:100%;
+max-width:250px}
 
 .pattern {
   overflow: hidden;
 }
 
-// site wide footer
-.footer-wrap {
-}
-
-footer.width-container {
+footer{
   padding-top: 10px;
+  padding-left: 5%;
+  padding-right:5%;
+  padding-bottom: 2%;
+  width: 90%;
   color: #FFFFFF;
   font-size: 15px;
   font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
   background: #bac0c0;
-  padding-bottom: 2%;
+  margin: 0 0 0 0;
 }
